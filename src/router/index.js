@@ -5,6 +5,7 @@ import Login from '@/components/Login'
 import Fail from '@/components/Fail'
 import Home from '@/components/home'
 import CustInfo from '@/components/CustInfo'
+import CustList from '@/components/CustList'
 
 Vue.use(Router)
 export default new Router({
@@ -29,6 +30,10 @@ export default new Router({
       path: '/CustInfo',
       name: 'CustInfo',
       component: CustInfo
+    },{
+      path: '/CustList',
+      name: 'CustList',
+      component: CustList
     }
   ]
 })

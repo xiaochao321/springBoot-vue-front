@@ -11,6 +11,11 @@
           信息登记
         </a>
     </div>
+    <div>
+        <a href="#/CustList" target="_blank">
+          获取用户信息
+        </a>
+    </div>
   </div>
 </template>
 
