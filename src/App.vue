@@ -1,7 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
   </div>
 </template>

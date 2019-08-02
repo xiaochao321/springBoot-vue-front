@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'//组件的位置
 import Login from '@/components/Login'
 import Fail from '@/components/Fail'
+import Home from '@/components/home'
+import CustInfo from '@/components/CustInfo'
 
 Vue.use(Router)
 export default new Router({
@@ -19,6 +21,14 @@ export default new Router({
       path: '/Fail',
       name: 'Fail',
       component: Fail
+    },{
+      path: '/Home',
+      name: 'Home',
+      component: Home
+    },{
+      path: '/CustInfo',
+      name: 'CustInfo',
+      component: CustInfo
     }
   ]
 })
