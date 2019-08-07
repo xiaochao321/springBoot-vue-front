@@ -16,6 +16,11 @@
           获取用户信息
         </a>
     </div>
+    <div>
+        <a href="#/HomePage" target="_blank">
+          首页
+        </a>
+    </div>
   </div>
 </template>
 

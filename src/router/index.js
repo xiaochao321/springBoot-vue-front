@@ -6,7 +6,9 @@ import Fail from '@/components/Fail'
 import Home from '@/components/home'
 import CustInfo from '@/components/CustInfo'
 import CustList from '@/components/CustList'
-
+import HomePage from '@/components/HomePage'
+import Index from '@/components/index'
+import Foot from '@/components/foot'
 Vue.use(Router)
 export default new Router({
   routes: [
@@ -34,6 +36,18 @@ export default new Router({
       path: '/CustList',
       name: 'CustList',
       component: CustList
+    },{
+      path: '/HomePage',
+      name: 'HomePage',
+      component: HomePage
+    },{
+      path: '/Index',
+      name: 'Index',
+      component: Index
+    },{
+      path: '/Foot',
+      name: 'Foot',
+      component: Foot
     }
   ]
 })

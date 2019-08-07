@@ -32,7 +32,11 @@ export default {
       user: '',
       imgurl:require("@/assets/home_3x.png")
     }
+  },
+  mounted(){
+    
   }
+
 }
 </script>
 
